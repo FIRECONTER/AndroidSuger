@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+    <LinearLayout android:id="@+id/layoutimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <ImageView 
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/layoutview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layoutimage">"
+    	<TextView 
+        	android:id="@+id/listusername"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+    	<TextView 
+    	    android:id="@+id/listpassword"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+   		<TextView 
+   		    android:id="@+id/listemail"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+   </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/F:/Javarequire/androidstudioproject/AndroidWorkSapce/AndroidSuger/app/src/main/res/layout/list.xml -->
